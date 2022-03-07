@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+/*============
+    Typohraphy
+    ===============
+*/
+
+/*============
+    Layout
+    ===============
+*/
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+.container_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header{
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+
+@media(max-width:675px){
+    .container_nav{
+        flex-direction: column;
+        align-items: center ;
+    }
+    
+}
+/* Navigation */
+
+nav ul{
+    display: flex;
+    list-style: none;
+    column-gap: 10px ;
+    justify-content: center;
+}
+nav ul li{
+    margin-left: 2em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em 0;
+}
+nav a:hover,
+nav a:focus{
+    color: #1792d2;
+}
+
+.active{
+    border-bottom: 2px solid #707070;
+}
+.active:hover{
+    color: #707070;
+}
+@media(max-width:675px){
+    nav ul{
+        flex-direction: column;
+        padding: 0;
+    }
+    nav li{
+        margin:.5em 0;
+    }
+}
