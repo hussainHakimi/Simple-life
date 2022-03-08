@@ -151,6 +151,7 @@ nav a:focus{
     nav li{
         margin:.5em 0;
     }
+    
 }
 
 .first_article{
@@ -203,9 +204,14 @@ nav a:focus{
         font-size: 1.1rem;
     }
     .first_article img{
+        width: 100%;
         max-height: 250px;
     }
-
+    .about_img{
+        width: 100%;
+        max-height: 50px;
+        object-fit: cover;
+    }
 }
 
 /*  Wedgets */
@@ -214,11 +220,7 @@ nav a:focus{
     margin-bottom: 20px;
     padding: 0px 20px;
 }
-.about_img{
-    width: 100%;
-    max-height: 85px;
-    object-fit: cover;
-}
+
 .widget_title{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
@@ -229,7 +231,7 @@ nav a:focus{
     font-size: 1rem;
 }
 .widget_post_title{
-    color: #143774;
+    color: #143774 ;
 }
 .widget_recent_post{
     display: flex;
@@ -246,7 +248,11 @@ nav a:focus{
 .widget_img{
     order: 2;
 }
-
+.about_img{
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
 
 
 /* About Page */
