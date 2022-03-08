@@ -6,35 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Life</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap">
 </head>
 <body>
     <header>
-        <div class="container container_nav">
+        <div class="container container_flex">
             <div class="site_title">
                 <img src="logo.png">
             </div>
             <nav >
                 <ul>
-                    <li><a href="" class="active">Home</a></li>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Recent Posts</a></li>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="recent.html">Recent Posts</a></li>
                 </ul>
             </nav>
         </div> <!-- close of container -->
     </header>
-    <div class="container">
+    <div class="container container_flex">
         <main role="main">
             <article class="first_article">
-                <h2 class="article_title">Finding Simplicity in life</h2>
-                <img src="images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" alt="" class="article_img">
+                <img src="images/sementa.png" alt="" class="article_img">
                 <p class="article_info">july 23, 2022 | 45 comments</p>
+                <h2 class="article_title">Finding Simplicity in life</h2>
+
                 <p class="article_body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <strong>ipsum dolor sit amet consectetur adipisicing elit.</strong>  
                     Iusto et beatae in tempore soluta nisi perferendis similique cumque eligendi 
                     iste tempora placeat distinctio nesciunt a, sapiente ex natus non quisquam.
                                     </p>
                 <a href="" class="article_read_more">Read More</a>
             </article>
+            
             <article class="recent_article">
                 <div class="recent_articel_main">
                     <h2 class="article_title">Keeping Cooking Simple</h2>
@@ -46,8 +49,8 @@
                     <a href="" class="article_read_more">Read More</a>
                 </div>
                 <div class="recent_article_img">
+                    <img src="images/white-decum.jpg" alt="" class="article_img">
                     <p class="article_info">july 19, 2022 | 45 comments</p>
-                    <img src="" alt="" class="article_img">
                 </div>
             </article>
             <article class="recent_article">
@@ -60,9 +63,10 @@
                     </p>
                     <a href="" class="article_read_more">Read More</a>
                 </div>
+
                 <div class="recent_article_img">
+                    <img src="images/wooden.jpg" alt="" class="article_img">
                     <p class="article_info">july 20, 2022 | 45 comments</p>
-                    <img src="" alt="" class="article_img">
                 </div>
             </article>
             <article class="recent_article">
@@ -76,43 +80,41 @@
                     <a href="" class="article_read_more">Read More</a>
                 </div>
                 <div class="recent_article_img">
+                    <img src="images/sarah.jpg" alt="" class="article_img">
                     <p class="article_info">july 25, 2022 | 45 comments</p>
-                    <img src="" alt="" class="article_img">
                 </div>
             </article>
         </main>
         <aside class="sidebar">
             <div class="sidebar_widget">
                 <h2 class="widget_title">About Me</h2>
-                <img class="widget_img">
+                <img class="widget_img about_img" src="images/smilingman.jpg" >
                 <p class="widget_body">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Iusto et beatae in tempore soluta nisi perferendis similique cumque eligendi 
-                    iste tempora placeat distinctio nesciunt a, sapiente ex natus non quisquam.
                 </p>
             </div>
             <div class="sidebar_widget">
                 <h2 class="widget_title">Recent Posts</h2>
                 <div class="widget_recent_post">
                     <h3 class="widget_post_title">Keeping Cooking Simple</h3>
-                    <img src="" alt="" class="widget_img">
+                    <img src="images/white-decum.jpg" alt="" class="widget_img">
                 </div>
-                <hr>
+                
                 <div class="widget_recent_post">
                     <h3 class="widget_post_title">Simplicity and work</h3>
-                    <img src="" alt="" class="widget_img">
+                    <img src="images/wooden.jpg" alt="Hello" class="widget_img">
                 </div>
-                <hr>
+                
                 <div class="widget_recent_post">
                     <h3 class="widget_post_title">Simple Decoration</h3>
-                    <img src="" alt="" class="widget_img">
+                    <img src="images/sarah.jpg" alt="" class="widget_img">
                 </div>
             </div>
         </aside>
     </div>
 
     <footer>
-        <p>Living the Simple Life</p>
+        <p><strong>Living the Simple Life</strong></p>
         <p>Copyright 2022 | Created By : Hussain Hakimi</p>
     </footer>
 </body>
